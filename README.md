@@ -6,3 +6,5 @@ https://user-images.githubusercontent.com/11558773/174678236-dba38bb0-6241-4fc9-
 
 # Reference
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scroll_Snap/Basic_concepts
+
+https://caniuse.com/css-snappoints
