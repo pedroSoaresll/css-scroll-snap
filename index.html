@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Scroll Snap</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .scroller {
+        height: 100vh;
+        overflow-y: scroll;
+        scroll-snap-type: y mandatory;
+      }
+
+      .scroller section {
+        scroll-snap-align: start;
+        height: 100vh;
+      }
+
+      .scroller section:first-child {
+        background-color: antiquewhite;
+      }
+
+      .scroller section:last-child {
+        background-color: burlywood;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="scroller">
+      <section>
+        <h2>Section one</h2>
+      </section>
+      <section>
+        <h2>Section two</h2>
+      </section>
+      <section>
+        <h2>Section three</h2>
+      </section>
+    </div>
+  </body>
+</html>
